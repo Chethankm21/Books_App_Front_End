@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Table Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div id="createBookForm">
+        <h2>Create a Book</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+
+            <label for="publication">Publication:</label>
+            <input type="text" id="publication" name="publication" required>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category" required>
+
+            <label for="pages">Pages:</label>
+            <input type="number" id="pages" name="pages" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+
+            <button type="submit" id="createBookBtn">Create Book</button>
+        </form>
+    </div>
+
+    
+    <div id="deleteBookForm">
+        <h2>Delete a Book</h2>
+        <form id="deleteForm">
+            <label for="deleteId">Book ID:</label>
+            <input type="text" id="deleteId" name="deleteId" required>
+            <button type="button" id="deleteBookBtn" onclick="deleteBook()">Delete Book</button>
+        </form>
+    </div>
+
+    <div id="table-container">
+        <table id="data-table">
+            <!-- Table content will be added dynamically using JavaScript -->
+        </table>
+    </div>
+    </div>
+<div id="buttonContainer"></div>
+    <div id="databaseButton" onclick="fetchData()">
+        Get Books
+    </div>
+</div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+
+</body>
+</html>

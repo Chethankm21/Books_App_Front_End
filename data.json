@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "name": "Extensive Multithreading",
+      "author": "Santosh Kumar",
+      "publication": "Mcgraw Publication",
+      "category": "Programming",
+      "pages": 100,
+      "price": 50
+    },
+    {
+      "id": 3,
+      "name": "Java",
+      "author": "Suchitra",
+      "publication": "Mcgraw Publication",
+      "category": "Programming",
+      "pages": 1000,
+      "price": 200
+    },
+    {
+      "id": 5,
+      "name": "C++",
+      "author": "Nitesh",
+      "publication": "Rajput Publication",
+      "category": "Computer Programming",
+      "pages": 1500,
+      "price": 240
+    },
+    {
+      "id": 6,
+      "name": "PHP",
+      "author": "Chethan",
+      "publication": "Chethan Publication",
+      "category": "Computer Programming",
+      "pages": 1400,
+      "price": 210
+    },
+    {
+      "id": 7,
+      "name": "Test Cricket",
+      "author": "Anil",
+      "publication": "McGrawHill",
+      "category": "Cricket",
+      "pages": 120,
+      "price": 120
+    },
+    {
+      "id": 8,
+      "name": "T20 Cricket",
+      "author": "Puneeth",
+      "publication": "McGrawHill",
+      "category": "Cricket",
+      "pages": 100,
+      "price": 100
+    },
+    {
+      "id": 9,
+      "name": "ODI Cricket",
+      "author": "Shiva",
+      "publication": "McGrawHill",
+      "category": "Cricket",
+      "pages": 100,
+      "price": 100
+    }
+  ]

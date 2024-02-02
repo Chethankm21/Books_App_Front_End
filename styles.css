@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Grey background color */
+}
+
+#createBookForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background color for the form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px; /* Adjust as needed for the button size */
+    font-size: 16px; /* Adjust as needed for the button text size */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+#table-container {
+    margin: 20px;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ade8b1; /* Light pink background color for the table */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    color: #333; /* Text color */
+}
+
+#data-table th {
+    background-color: #52c03c; /* Light coral background color for column headers */
+    color: #fff; /* Text color for column headers */
+}
+
+#data-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background color for even rows */
+}
+
+#data-table tbody tr:hover {
+    background-color: #6ee588; /* Light salmon background color on hover */
+}
+
+
+/* Add this to your existing styles.css file or create a new one */
+
+#deleteBookForm {
+    max-width: 300px; /* Set a maximum width for the delete book form */
+    margin: 10px; /* Add some margin for spacing */
+    position: absolute; /* Position the form absolutely */
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+}
+
+#deleteBookForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc; /* Add a border for form appearance */
+    padding: 15px; /* Add padding for better appearance */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+#deleteBookForm label,
+#deleteBookForm input,
+#deleteBookForm button {
+    margin: 5px 0;
+}
+
+/* Adjust the size of the book ID input field */
+#deleteBookForm input[type="text"] {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    padding: 8px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+/* Adjust the size and appearance of the delete button */
+#deleteBookForm button {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    padding: 10px; /* Add padding for better appearance */
+    background-color: #ff5555; /* Add a background color */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove the border for a cleaner look */
+    cursor: pointer; /* Add a pointer cursor for user interaction */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+}
+
+/* Style the form header (Delete a Book) */
+#deleteBookForm h2 {
+    text-align: center; /* Center-align the form header */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+#databaseButton {
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    width: 120px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    line-height: 180px;
+    color: #fff;
+    cursor: pointer;
+}
+#buttonContainer {
+    position: relative;
+    height: -100px; /* Adjust the height to accommodate the button */
+}
+#table-container {
+    display: none;
+}
