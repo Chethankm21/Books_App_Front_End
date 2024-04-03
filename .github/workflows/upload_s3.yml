@@ -28,4 +28,4 @@ jobs:
 
       - name: Upload to S3
         run: |
-          aws s3 sync ./path/to/your/files s3://your-bucket-name
+          aws s3 sync /home/runner/work/Books_App_Front_End/Books_App_Front_End s3://your-bucket-name
